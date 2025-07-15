@@ -53,7 +53,4 @@ Open a terminal in the repository folder and run:
 g++ <filename>.cpp -o <filename>
 ./<filename>
 
-## 🧑‍💻 Author
 
-**Zeyad Barahme**  
-[GitHub Repo](https://github.com/zeyad-barahme/data-structures-implementations)
