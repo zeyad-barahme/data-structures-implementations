@@ -82,6 +82,27 @@ It includes their definitions, operations, complexities, and real-world use case
 
 ---
 
+### 📅 Day 3
+- 🟢 **Binary Tree**
+  - **File:** `Day3/binary_tree.cpp`
+  - **Description:** Basic binary tree structure with traversals.
+  - **Traversals:**
+    - Inorder: Left → Root → Right
+    - Preorder: Root → Left → Right
+    - Postorder: Left → Right → Root
+  - **Use Case:** Representing hierarchical data.
+
+- 🟢 **Binary Search Tree**
+  - **File:** `Day3/binary_search_tree.cpp`
+  - **Description:** Binary tree with ordering property for efficient search, insert, and delete.
+  - **Time Complexity:**
+    - Search: O(log n) (average), O(n) (worst case)
+    - Insert: O(log n) (average), O(n) (worst case)
+    - Delete: O(log n) (average), O(n) (worst case)
+  - **Use Case:** Efficient search and sorted data storage.
+
+---
+
 ## 🚀 How to Compile & Run
 
 Open a terminal in the repository folder and run:
