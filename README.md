@@ -103,6 +103,32 @@ It includes their definitions, operations, complexities, and real-world use case
 
 ---
 
+### 📅 Day 4
+- 🟢 **Hash Table (Separate Chaining)**
+  - **File:** `Day4/hash_table.cpp`
+  - **Description:** Hash table implementation using separate chaining with linked lists to handle collisions.
+  - **Time Complexity:**
+    - Insert: O(1) (average), O(n) (worst case)
+    - Delete: O(1) (average), O(n) (worst case)
+    - Search: O(1) (average), O(n) (worst case)
+  - **Use Case:** Storing key-value pairs with fast access and handling collisions.
+
+- 🟢 **Min Heap**
+  - **File:** `Day4/min_heap.cpp`
+  - **Description:** Binary heap where the smallest element is always at the root.
+  - **Time Complexity:**
+    - Insert: O(log n)
+    - Delete Min: O(log n)
+    - Get Min: O(1)
+  - **Use Case:** Priority queues, scheduling.
+
+- 🟢 **Graph (Adjacency List)**
+  - **File:** `Day4/graph_adjlist.cpp`
+  - **Description:** Graph representation using adjacency lists for each vertex.
+  - **Use Case:** Representing sparse graphs efficiently.
+
+---
+
 ## 🚀 How to Compile & Run
 
 Open a terminal in the repository folder and run:
@@ -110,3 +136,4 @@ Open a terminal in the repository folder and run:
 ```bash
 g++ <filename>.cpp -o <filename>
 ./<filename>
+```
