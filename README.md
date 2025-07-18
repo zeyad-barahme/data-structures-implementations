@@ -129,6 +129,64 @@ It includes their definitions, operations, complexities, and real-world use case
 
 ---
 
+### 📅 Day 5
+- 🟢 **Trie**
+  - **File:** `Day5/trie.cpp`
+  - **Description:**  
+    A tree-like data structure used to store strings efficiently, particularly useful for prefix-based searches.
+  - **Time Complexity:**
+    - Insert: O(L), where L is the length of the word
+    - Search: O(L)
+    - Prefix Search: O(L)
+  - **Space Complexity:** O(N * L), where N is the number of words, and L is the average word length.
+  - **Use Case:**  
+    - Autocomplete systems
+    - Spell checking
+    - IP routing
+  - **How to Run:**
+    ```bash
+    g++ Day5/trie.cpp -o trie
+    ./trie
+    ```
+
+- 🟢 **Union-Find (Disjoint Set)**
+  - **File:** `Day5/union_find.cpp`
+  - **Description:**  
+    A data structure that keeps track of elements partitioned into disjoint (non-overlapping) sets, supporting union and find operations efficiently.
+  - **Time Complexity:**
+    - Find: O(α(N)) with path compression
+    - Union: O(α(N)) with union by rank
+  - **Space Complexity:** O(N)
+  - **Use Case:**  
+    - Detecting cycles in a graph
+    - Kruskal’s algorithm for Minimum Spanning Tree
+    - Network connectivity
+  - **How to Run:**
+    ```bash
+    g++ Day5/union_find.cpp -o union_find
+    ./union_find
+    ```
+
+- 🟢 **Graph Traversal (BFS & DFS)**
+  - **File:** `Day5/graph_traversal.cpp`
+  - **Description:**  
+    Graph traversal algorithms to visit all vertices of a graph, either breadth-first (level by level) or depth-first (path as deep as possible).
+  - **Time Complexity:**
+    - BFS: O(V + E)
+    - DFS: O(V + E)
+  - **Space Complexity:** O(V)
+  - **Use Case:**  
+    - Pathfinding in maps
+    - Detecting connected components
+    - Cycle detection in graphs
+  - **How to Run:**
+    ```bash
+    g++ Day5/graph_traversal.cpp -o graph_traversal
+    ./graph_traversal
+    ```
+
+---
+
 ## 🚀 How to Compile & Run
 
 Open a terminal in the repository folder and run:
@@ -136,4 +194,3 @@ Open a terminal in the repository folder and run:
 ```bash
 g++ <filename>.cpp -o <filename>
 ./<filename>
-```
